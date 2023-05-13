@@ -12,7 +12,7 @@
     document.getElementById('user-input').value = '';
 
     // Send user input to the OpenAI API
-    const response = await fetch('https://api.openai.com/v1/engines/davinci-codex/completions', {
+    const response = await fetch('http://e2330602.eero.online:5000/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
